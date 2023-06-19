@@ -1,0 +1,27 @@
+{
+  "name": "hsu-vector-library",
+  "version": "1.0.0",
+  "description": "made for hsu",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/types.js",
+  "scripts": {
+    "prepublish": "npm run build",
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Lily G",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lilylilylily123/hsu-vector-library.git"
+  },
+  "bugs": {
+    "url": "https://github.com/lilylilylily123/hsu-vector-library/issues"
+  },
+  "homepage": "https://github.com/lilylilylily123/hsu-vector-library#readme",
+  "devDependencies": {
+    "@types/node": "^20.3.1"
+  }
+}
